@@ -1,0 +1,274 @@
+{
+	"info": {
+		"_postman_id": "746ecf76-a68a-4809-9cc2-b583f3cedebb",
+		"name": "Practice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27456990"
+	},
+	"item": [
+		{
+			"name": "Make order of product named \"tv\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Casser/make_order/tv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Casser",
+						"make_order",
+						"tv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultant check orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Consultant/check_orders/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Consultant",
+						"check_orders",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultant change status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Consultant/change_status/tv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Consultant",
+						"change_status",
+						"tv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check generation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Casser/gen_check/tv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Casser",
+						"gen_check",
+						"tv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Casser change status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Casser/change_status/tv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Casser",
+						"change_status",
+						"tv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booker cheking all orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Booker/check_orders/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Booker",
+						"check_orders",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booker checking orders by date",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Booker/check_orders/16-05-2022,17-07-2023",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Booker",
+						"check_orders",
+						"16-05-2022,17-07-2023"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save state of Database",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/0/0/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"0",
+						"0",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Make order of product named \"phone\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Casser/make_order/phone",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Casser",
+						"make_order",
+						"phone"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cheking orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Booker/check_orders/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Booker",
+						"check_orders",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Load state of Database",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/0/1/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"0",
+						"1",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cheking orders again",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/Booker/check_orders/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"Booker",
+						"check_orders",
+						"0"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
